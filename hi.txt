@@ -1,0 +1,11 @@
+#include <iostream>
+#include <conio.h>
+int main ()
+{
+float p,x,y,z,w;
+std::cout<<"enter values of x,y,z,w";
+std::cin>>x>>y>>z>>w;
+p=w+x/y-z;
+std::cout<<"p="<<p;
+return 0;
+}
